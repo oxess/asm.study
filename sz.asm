@@ -1,3 +1,10 @@
+;
+; Author: Mikolaj Jeziony
+; Url: https://github.com/oxess
+;
+; Koda na zajecia wyswietlajacy szachownice
+; w podanym rozmiarze
+;
 
 .model small
 .stack 16h
