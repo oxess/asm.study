@@ -1,5 +1,5 @@
 ;
-; Author: Mikolaj Jeziony
+; Author: Mikolaj Jeziorny
 ; Url: https://github.com/oxess
 ;
 ; Koda na zajecia wyswietlajacy szachownice
