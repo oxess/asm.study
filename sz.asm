@@ -35,12 +35,12 @@
 ; }
 
 .DATA
-	txt_x db "x$"
-	txt_y db "o$"
+	txt_x db 176, "$"
+	txt_y db 178, "$"
 	ln db 13, 10, '$'
 
-	col_s dw 5
-	row_s dw 5
+	col_s dw 18
+	row_s dw 18
 	
 .CODE
 .startup
@@ -82,12 +82,14 @@
                     jz show_y
 
                     print txt_x
+                    print txt_x
 
                     jmp end_if
 
                 ;} else {
                     show_y:
 
+                    print txt_y
                     print txt_y
 
                     end_if:
